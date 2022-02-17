@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void function() {
-        System.out.println("Max wrote me");
+        System.out.println("Shyliaiev wrote me.");
     }
 }
 
