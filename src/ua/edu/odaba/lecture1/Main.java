@@ -9,5 +9,9 @@ public class Main {
     public static void println(String string) {
         System.out.println(string);
     }
+
+    public static void function() {
+        System.out.println("Max wrote me");
+    }
 }
 
