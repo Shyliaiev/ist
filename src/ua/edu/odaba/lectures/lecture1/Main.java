@@ -1,4 +1,4 @@
-package ua.edu.odaba.lecture1;
+package ua.edu.odaba.lectures.lecture1;
 
 public class Main {
 
