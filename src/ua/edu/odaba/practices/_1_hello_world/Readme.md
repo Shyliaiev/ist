@@ -5,4 +5,4 @@
 Примерное время выполнения задания: 5 минут.
 
 ### Описание
-Перейдите в класс [HelloAutocode](src/ua/edu/odaba/practices/_1_hello_world/HelloWorld.java), и напишите простую программу, которая печатает: "Hello, Autocode!" (не печатайте кавычки).
+Перейдите в класс [HelloAutocode](HelloWorld.java), и напишите простую программу, которая печатает: "Hello, Autocode!" (не печатайте кавычки).
