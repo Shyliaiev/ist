@@ -15,8 +15,10 @@
 
 **Пример**
 
-Input: 133976
+---
+Input: 133976\
 Output: Hello, Agent
-
-Input: 711
+---
+Input: 711\
 Output: Access denied
+---

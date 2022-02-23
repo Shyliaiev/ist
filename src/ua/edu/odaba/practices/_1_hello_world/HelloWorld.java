@@ -1,6 +1,6 @@
-package ua.edu.odaba.practices._2_meetastranger;
+package ua.edu.odaba.practices._1_hello_world;
 
-public class MeetAStranger {
+public class HelloWorld {
     public static void main(String[] args) {
 
         //put your code here

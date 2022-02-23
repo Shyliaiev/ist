@@ -1,4 +1,4 @@
-package ua.edu.odaba.practices._4_meetanagent;
+package ua.edu.odaba.practices._4_meet_an_agent;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

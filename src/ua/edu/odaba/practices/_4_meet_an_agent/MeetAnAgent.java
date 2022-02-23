@@ -1,4 +1,4 @@
-package ua.edu.odaba.practices._4_meetanagent;
+package ua.edu.odaba.practices._4_meet_an_agent;
 
 public class MeetAnAgent {
     final static int password = 133976;

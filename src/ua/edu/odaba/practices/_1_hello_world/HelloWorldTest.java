@@ -1,4 +1,4 @@
-package ua.edu.odaba.practices._1_helloworld;
+package ua.edu.odaba.practices._1_hello_world;
 
 import org.junit.jupiter.api.Test;
 

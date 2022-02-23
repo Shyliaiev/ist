@@ -1,4 +1,4 @@
-package ua.edu.odaba.practices._3_electronicwatch;
+package ua.edu.odaba.practices._3_electronic_watch;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

@@ -1,4 +1,4 @@
-package ua.edu.odaba.practices._2_meetastranger;
+package ua.edu.odaba.practices._2_meet_a_stranger;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.params.ParameterizedTest;

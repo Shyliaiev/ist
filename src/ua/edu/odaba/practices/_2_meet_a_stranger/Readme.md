@@ -10,5 +10,7 @@
 
 **Пример**
 
-Input: Mrs. Robinson
+---
+Input: Mrs. Robinson\
 Output: Hello, Mrs. Robinson
+---
