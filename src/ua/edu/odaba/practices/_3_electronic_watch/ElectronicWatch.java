@@ -11,7 +11,3 @@ public class ElectronicWatch {
         int lon = scanner.nextInt();
     }
 }
-
-
-//1. Отримати на вхід ціле число
-//2. Надрукувати вивід екрану електронного годинника
