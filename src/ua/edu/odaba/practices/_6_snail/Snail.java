@@ -21,7 +21,7 @@ public class Snail
                 System.out.println(countDays);
                 break;
             }
-            travelled = travelled - b + a; //next day   previos day travelled + how much it will travel
+            travelled = travelled - b + a; //next day   previous day travelled + how much it will travel
             countDays++;
             if (a - b <= 0) {
                 System.out.println("Impossible");
