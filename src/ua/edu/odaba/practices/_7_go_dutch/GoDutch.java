@@ -16,8 +16,5 @@ public class GoDutch {
         bill = scanner.nextInt();
         numberOfFriends = scanner.nextInt();
 
-        1000 / 5 = 200
-                200 +
-
     }
 }
