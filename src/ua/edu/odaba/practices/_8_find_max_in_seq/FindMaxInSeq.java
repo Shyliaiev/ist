@@ -5,15 +5,28 @@ import java.util.Scanner;
 public class FindMaxInSeq {
     public static int max() {
 
-        //put your code here
+        Scanner scanner = new Scanner(System.in);
 
-        return 0;
+        int item;
+        int max = scanner.nextInt();
+
+        while (true) {
+            item = scanner.nextInt();
+            if (item == 0) {
+                break;
+            }
+            if (item > max) {
+                max = item;
+            }
+        }
+
+        return max;
 
     }
 
     public static void main(String[] args) {
 
-        System.out.println("Test your code here!\n");
+        System.out.println("Test your code here!");
 
         // Get a result of your code
 
