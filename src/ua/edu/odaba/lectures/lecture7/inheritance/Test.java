@@ -13,7 +13,7 @@ public class Test {
         dog.setName("Zhuchka");
         dog.voice();
 
-        Haski haski = new Haski();
+//        Haski haski = new Haski();
 
 //        haski.field = "Valera";
 
