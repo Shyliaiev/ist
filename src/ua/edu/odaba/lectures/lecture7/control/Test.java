@@ -5,7 +5,7 @@ public class Test {
 //        public - from everywhere
 //        private - only from class
 //        default - only from package
-//        protected - only isinherited classes
+//        protected - only in inherited classes
 
 
         Sample sample = new Sample();
