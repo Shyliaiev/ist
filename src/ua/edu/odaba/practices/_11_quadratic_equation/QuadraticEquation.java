@@ -3,8 +3,6 @@ package ua.edu.odaba.practices._11_quadratic_equation;
 import java.util.Locale;
 import java.util.Scanner;
 
-import static java.lang.Math.sqrt;
-
 public class QuadraticEquation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -12,7 +10,19 @@ public class QuadraticEquation {
         double b = scanner.nextDouble();
         double c = scanner.nextDouble();
 
-        //put your code here
+        double D = b * b - 4 * a * c;
+        double x1, x2;
+
+        if (D > 0) {
+            x1 = (- b - Math.sqrt(D)) / (2 * a);
+            x2 = (- b + Math.sqrt(D)) / (2 * a);
+            System.out.println(x1 + " " + x2);
+        } else if (D == 0) {
+            x1 = - b / (2 * a);
+            System.out.println(x1);
+        } else {
+            System.out.println("no roots");
+        }
 
     }
 
