@@ -1,5 +1,6 @@
 package ua.edu.odaba.practices._13_sum_of_even_numbers;
 
+
 public class SumOfEvenNumbers {
 
     public static void main(String[] args) {
@@ -9,10 +10,20 @@ public class SumOfEvenNumbers {
     }
 
     public static int sum(int[] array){
-        //put your code here
+        int sum = 0;
 
-        throw new UnsupportedOperationException();
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
 
+        if (sum % 2 == 0) {
+            System.out.println("number " + n + " even");
+        } else {
+            System.out.println("number " + n + " odd");
+        }
+
+        return sum;
     }
 }
 
+// Check for MAX_VALUE
