@@ -11,10 +11,17 @@ public class LocalMaximaRemove {
     }
 
     public static int[] removeLocalMaxima(int[] array){
+        int[] result;
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] < array[i - 1] || array[i] < array[i + 1]) {
 
-        //put your code here
+            }
+        }
 
-        throw new UnsupportedOperationException();
+
+
+
+        return result;
     }
 }
 
