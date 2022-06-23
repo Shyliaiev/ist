@@ -12,9 +12,50 @@ public class LocalMaximaRemove {
 
     public static int[] removeLocalMaxima(int[] array){
 
-        //put your code here
+        int count = 0;
+        Integer[] newArray = new Integer[array.length];
 
-        throw new UnsupportedOperationException();
+        for (int i = 0; i < array.length; i++) {
+            newArray[i] = array[i];
+        }
+
+        for (int i = 0; i < array.length; i++) {
+            if (i == 0) {
+                if (array[i] > array[i + 1]) {
+                    newArray[i] = null;
+                }
+            } else if (i == array.length - 1) {
+                if (array[i] > array[i - 1]) {
+                    newArray[i] = null;
+                }
+            } else {
+                if (array[i - 1] < array[i] && array[i + 1] < array[i]) {
+                    newArray[i] = null;
+                }
+            }
+        }
+
+        for (int i = 0; i < newArray.length; i++) {
+            if (newArray[i] != null) {
+                count++;
+            }
+        }
+
+        if (count > 0) {
+            int[] resultArray = new int[count];
+            int countNew = 0;
+
+            for (int i = 0; i < newArray.length; i++) {
+                if (newArray[i] != null) {
+                    resultArray[countNew] = newArray[i];
+                    countNew++;
+                }
+            }
+            return resultArray;
+        }
+
+        return array;
+
     }
 }
 

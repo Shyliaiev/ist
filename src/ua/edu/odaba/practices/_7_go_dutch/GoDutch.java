@@ -8,13 +8,24 @@ public class GoDutch {
 
         int bill;
         int numberOfFriends;
-        int TIPS_PERCENT = 10;
-        int tips;
+        final int TIPS_PERCENT = 10;
+        int payment;
 
         Scanner scanner = new Scanner(System.in);
 
         bill = scanner.nextInt();
         numberOfFriends = scanner.nextInt();
+
+        if (bill < 0) {
+            System.out.println("Bill total amount cannot be negative");
+        } else if (numberOfFriends <= 0) {
+            System.out.println("Number of friends cannot be negative or zero");
+        } else {
+
+            payment = (bill + ((bill / 100) * TIPS_PERCENT)) / numberOfFriends;
+            System.out.println(payment);
+
+        }
 
     }
 }

@@ -5,9 +5,30 @@ import java.util.Arrays;
 public class MultiplyMatrix {
     public static int[][] multiply(int[][] matrix1, int[][] matrix2) {
 
-        // Put your code here
+        int row1 = matrix1.length;
+        int row2 = matrix2.length;
+        int col1 = matrix1[0].length;
+        int col2 = matrix2[0].length;
 
-        return null;
+        int i, j, k;
+
+        if (row2 != col1) {
+
+            System.out.println(
+                    "\nMultiplication Not Possible");
+            return null;
+        }
+
+        int C[][] = new int[row1][col2];
+
+        for (i = 0; i < row1; i++) {
+            for (j = 0; j < col2; j++) {
+                for (k = 0; k < row2; k++)
+                    C[i][j] += matrix1[i][k] * matrix2[k][j];
+            }
+        }
+
+        return C;
     }
 
     public static void main(String[] args) {

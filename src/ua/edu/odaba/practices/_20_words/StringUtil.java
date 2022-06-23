@@ -4,10 +4,24 @@ import java.util.Arrays;
 
 public class StringUtil {
     public static int countEqualIgnoreCaseAndSpaces(String[] words, String sample) {
-        throw new UnsupportedOperationException();
+        int count = 0;
+        String formatWord = "";
+        String example = sample.replaceAll("\\s+","");
+        for (int i = 0; i < words.length; i++) {
+            formatWord = words[i].toLowerCase();
+            if (formatWord.contains(example)) {
+                count++;
+            }
+        }
+
+        return count;
+//        throw new UnsupportedOperationException();
     }
 
     public static String[] splitWords(String text) {
+        String[] arr = text.split(" ");
+
+
         throw new UnsupportedOperationException();
     }
 
